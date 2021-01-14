@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Bebas Neue', cursive;
+    color: #353858;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+button:focus{
+    outline: none;
+}
+input:focus{
+    outline:none;
+}
+li{
+    padding-left:10px;
+}
+/* Header Area Styles Here */
+.header-area{
+    min-height: 600px;
+    background:#fffbf0;
+}
+.navbar a img{
+    width: 200px;
+}
+.penguin-product h1{
+    color:#353858;
+    font-size: 65px;
+}
+.penguin-product h1 span{
+    color:#FABE4C;
+}
+.btn-with-cart,
+.sent-quota {
+    padding: 8px 10px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    background: linear-gradient(0deg, #66752c, #a4bc46);
+}
+.btn-with-cart:hover {
+    background: linear-gradient(0deg, #a4bc46, #66752c);
+}
+
+/* Products Area Styles Here */
+.single-product{
+    box-shadow: 0px 3px 10px 0px #a5a5a5;
+}
+
+.product-img img {
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.product-img {
+    padding: 15px;
+    background: #fff;
+    
+}
+.price-num{
+    margin-top: -15px;
+    font-size: 35px;
+    color:#FABE4C; 
+}
+.cloth-name,
+.quality-name,
+.proved-quota,
+.quota-num-text{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Qualities Section Styles Here */
+.single-quality {
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 1px #c1c1c1;
+}
+.single-quality img{
+    width: 17%;
+}
+.products-image img {
+    height: 340px;
+}
+/* Quotation Section Styles Here */
+.rules{
+    width: 100%;
+    height: 250px;
+    background-image: url("../images/quota.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a.learn-more {
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 13px;
+}
+.request{
+    border: 3px solid #dcdee3;
+}
+input[type="text"] {
+    width: 96%;
+    padding: 9px 7px;
+    font-size: 13px;
+    border-color: #dcdee3;
+    border-width: 1px;
+    border-radius: 5px;
+    margin: 4px 0;
+}
+input[type="number"] {
+    width: 48%;
+    padding: 9px 7px;
+    font-size: 13px;
+    border-color: #dcdee3;
+    border-width: 1px;
+    border-radius: 5px;
+    margin: 4px 0;
+}
+select.quota-num {
+    width: 48%;
+    border-color: #dcdee3;
+    border-width: 1px;
+    padding: 9px 7px;
+    border-radius: 5px;
+    font-size: 13px;
+    border-width: 2px;
+}
